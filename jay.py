@@ -64,12 +64,16 @@ list = [a,b,c]
 print(list)"""
 
 #wap to check if a list contains a palindrome of elements
-list1 = ["M","A","A","M"]
-list = list1.reverse()
-if(list == list1):
-    print("palindrome")
+list1 = ["M", "A", "A", "M"]
 
-    print("not palindrome")
+rev_list = list1.copy()   # Make a copy
+rev_list.reverse()        # Reverse the copy
+
+if list1 == rev_list:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+    
 #wap to count the number of students with the "A" grade in the following tuple 
 #["C","D","A',"A","B","B","A"]
 
