@@ -64,15 +64,13 @@ list = [a,b,c]
 print(list)"""
 
 #wap to check if a list contains a palindrome of elements
-list1 = ["M", "A", "A", "M"]
-
+"""list1 = ["M", "A", "A", "M"]
 rev_list = list1.copy()   # Make a copy
 rev_list.reverse()        # Reverse the copy
-
 if list1 == rev_list:
     print("Palindrome")
 else:
-    print("Not a palindrome")
+    print("Not a palindrome")"""
     
 #wap to count the number of students with the "A" grade in the following tuple 
 #["C","D","A',"A","B","B","A"]
@@ -86,3 +84,77 @@ print(GRADE.count("A"))"""
 GRADE.sort()
 print(GRADE)
 """
+# store the following word meanings in a python dictionary:
+# table : " a piece of furniture","list of facts and figures"
+# cat : "a small animal"
+
+"""dictionary = {
+    "cat": "a small animal",
+    "table": [" a piece of furniture","list of facts and  figures "]
+}
+
+print(dictionary)"""
+
+#you are given a list of subjects for students .assume one classroom is required for 1 subject.
+#how many classrooms are needed by all students
+#"#python","java","c++","python","javascript","java","python","java","c++","c"
+
+"""subjects= {
+    "python","java","c++","python","javascript","java","python","java","c++","c"
+  }
+print(len(subjects))"""
+
+#wap to enter marks of 3 subjects from the user and store them in a dictionary.start with an empty dictionary and
+#  add one by one.use subject name as key and marks as value.
+"""marks = {}
+x = int(input("enter phy : "))
+marks.update({"phy": x})
+x = int(input("enter math : "))
+marks.update({"math": x})
+x = int(input("enter che : "))
+marks.update({"che ":x})
+print(marks)"""
+
+#figure out a way to store 9 and 9.0 as seperate values in the set.
+
+"""values = {
+    ("float",9.0),
+    ("int",9)
+}
+print(values)"""
+
+#print number from 1 to 100
+
+"""i=1
+while i <= 100:
+    print(i)
+    i += 1"""
+
+#print number from 100 to 1
+
+"""i = 100
+while i >= 1:
+    print(i)
+    i -= 1"""
+
+#print the multiplication table of a number n 
+
+"""n = int(input("enter number : "))
+i = 1
+while i <= 10:
+    print(n*i)
+    i += 1"""
+
+#print the elements of the following list using a loop
+#[1,4,9,16,25,36,49,64,81,100]
+
+"""nums = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+while idx < len(nums):
+    print(nums[idx])
+    idx += 1
+
+"""
+
+#
