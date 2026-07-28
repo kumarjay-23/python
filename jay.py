@@ -157,4 +157,94 @@ while idx < len(nums):
 
 """
 
-#
+#search for a number x in this tuple using loop
+#[1,4,9,16,25,36,49,64,81,100]
+
+"""nums = (1,4,9,16,25,36,49,64,81,100)
+
+x = 36
+
+i = 0
+while i < len(nums):
+    if(nums[i] == x):
+        print("found at idx", i )
+        i += 1"""
+
+"""nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+x = int(input("Enter the number to search: "))
+
+for i in range(len(nums)):
+    if nums[i] == x:
+        print("Number found at index", i)
+        break
+else:
+    print("Number not found.")
+"""
+
+#print the elements of the following list using a loop:
+#[1,4,9,16,25,36,49,64,81,100]
+
+"""nums = [1,4,9,16,25,36,49,64,81,100]
+
+for el in nums:
+    print(el)"""
+
+#search for a number x in this tuple using loop:
+#[1,4,9,16,25,36,49,64,81,100]
+
+#wap to find the sum of first n number.
+
+"""n = 7
+sum = 0
+for i in range(1,n+1):
+    sum += i
+print("total sum =", sum)
+"""
+
+#wap to find the factorial of first n numbers
+
+"""n = 5
+fact = 1 
+for i in range(1,n+1):
+    fact *= i
+    print("factorial = ", fact)"""
+
+#wap to print the length of a list
+
+"""cities = ["delhi", "gurgaon", "noida", "pune", "mumbai", "chennai"]
+
+def print_len(cities):
+    print(len(cities))
+
+print_len(cities)
+"""
+#wap to print the elements of a list in a single line
+
+"""cities = ["delhi", "gurgaon", "noida", "pune", "mumbai", "chennai"]
+
+def print_list(list):
+    for item in list:
+        print(item, end=" ")
+
+
+print_list(cities)
+print()"""
+
+#wap to find the factorial of n
+
+"""def cal_fact(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+        print(fact)
+
+cal_fact(6)"""
+
+#wap to convert usd to inr
+
+"""def converter(usd_val):
+    inr_val=usd_val * 83
+    print(usd_val, "usd =",inr_val,"inr")
+
+converter(73)"""
